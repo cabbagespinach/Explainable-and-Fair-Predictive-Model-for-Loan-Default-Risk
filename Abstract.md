@@ -1,5 +1,3 @@
-# Abstract
-
 Accurately assessing credit risk is a crucial part of financial decision-making, especially when it comes to determining who qualifies for loans and how to reduce the likelihood of default. In this study, we explored methods for predicting loan defaults using the Home Credit Default Risk dataset available on Kaggle. Our approach focused not only on improving predictive performance but also on addressing fairness concerns across protected demographic groups and ensuring the model’s decisions could be explained.
 
 We compared two widely used gradient boosting algorithms, XGBoost and LightGBM, and found that LightGBM offered better predictive results overall. To evaluate fairness, we looked at the False Positive Rate (FPR) gap across gender groups, both before and after applying two fairness-enhancing techniques from the Fairlearn library: the Exponentiated Gradient and Equalized Odds mitigators. These interventions were effective in reducing gender-based disparities with only a minor trade-off in performance.
